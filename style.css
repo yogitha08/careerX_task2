@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(4, 11, 12);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 120vh;
+}
+.container{
+    position: relative;
+    background: rgba(210, 130, 178, 0.856, 0.6sec);
+    border: 1px rgb(226, 144, 156);
+    background-color: rgb(244, 142, 162) 0.3sec;
+    height: 400px;
+    width:450px; 
+}
+.container .heading{
+    font-size:150%;
+    color:white;
+    justify-content: center;
+    text-align: center;
+}
+.container .yes{
+    accent-color: rgb(222, 69, 166);
+}
+a{
+    text-decoration: none ;
+    color: rgb(232, 213, 223);
+}
+.box input::placeholder{
+    color: rgb(234, 99, 166);
+    padding: 10px;
+}
+.box input{
+    height: 100%;
+    width: 100%;
+    border:3px;
+    padding: 20px;
+    border-radius: 40px;
+    color:rgb(53, 43, 45);
+}
+.container .box{
+    height: 10%;
+    width: 80%;
+    margin: 30px;
+    
+}
+.boxx{
+    justify-content: space-between;
+    display: flex;
+    margin: 30px 30px;
+    color: aliceblue;
+}
+.submit button{
+    height: 5vh;
+    width: 80%;
+    margin: 30px;
+    border-radius: 40px;
+    border:none ;
+    outline: none;
+    color: palevioletred;
+}
+button:hover{
+    color: rgb(241, 158, 170);
+    cursor: pointer;
+}
+.signIn p{
+   margin-left: 120px;
+   color: aliceblue;
+}
